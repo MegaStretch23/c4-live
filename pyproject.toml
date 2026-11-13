@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "c4-live"
+version = "0.1.0"
+description = "C4-style architecture diagrams and git-ref diffs from the imports in a Python / TypeScript repo (Mermaid or PlantUML)"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+dependencies = []
+
+[project.scripts]
+c4-live = "c4_live.cli:main"
+
+[tool.setuptools]
+packages = ["c4_live"]

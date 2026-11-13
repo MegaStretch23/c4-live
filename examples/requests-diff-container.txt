@@ -1,0 +1,6 @@
+c4-live diff v2.31.0 -> v2.34.2 (level: container)
++ requests -> ext:_typeshed  (1 import statements)
++ requests -> ext:typing_extensions  (4 import statements)
+- (root) -> ext:pytest  (1 import statements)
+- requests -> ext:dummy_threading  (1 import statements)
+2 edge(s) added, 2 removed

@@ -1,0 +1,12 @@
+C4Container
+  title ky: container view
+  System_Ext(ext__type_challenges_utils, "@type-challenges/utils", "external package")
+  System_Ext(ext_expect_type, "expect-type", "external package")
+  System_Ext(ext_ky, "ky", "external package")
+  System_Boundary(sys, "ky") {
+    Container(source, "source", "TypeScript", "31 files")
+    Container(test_d, "test-d", "TypeScript", "21 files")
+  }
+  Rel(source, ext__type_challenges_utils, "imports (1)")
+  Rel(test_d, ext_expect_type, "imports (17)")
+  Rel(test_d, ext_ky, "imports (21)")
