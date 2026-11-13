@@ -1,0 +1,12 @@
+%% Containers
+C4Container
+  title Containers: ts_repo
+  System_Boundary(sys_ts_repo_b, "ts_repo") {
+    Container(c__fx_core, "@fx/core", "npm workspace package", "3 modules, path packages/core")
+    Container(c__fx_web, "@fx/web", "npm workspace package", "4 modules, path packages/web")
+  }
+  System_Ext(ext_lodash, "lodash", "third-party package")
+  System_Ext(ext_react, "react", "third-party package")
+  Rel(c__fx_web, c__fx_core, "imports")
+  Rel(c__fx_core, ext_lodash, "imports")
+  Rel(c__fx_web, ext_react, "imports")

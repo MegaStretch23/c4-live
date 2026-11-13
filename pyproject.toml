@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "c4-live"
+version = "0.1.0"
+description = "Scan a Python / TypeScript repo into a C4 model (Mermaid, Structurizr DSL, JSON) and diff it between git refs."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+dependencies = []
+
+[project.optional-dependencies]
+test = ["pytest"]
+
+[project.scripts]
+c4-live = "c4_live.cli:main"
+
+[tool.setuptools]
+packages = ["c4_live"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

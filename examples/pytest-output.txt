@@ -1,0 +1,18 @@
+============================= test session starts ==============================
+platform linux -- Python 3.12.3, pytest-9.2.0, pluggy-1.7.0 -- /tmp/c4v/bin/python
+configfile: pyproject.toml
+testpaths: tests
+collecting ... collected 10 items
+
+tests/test_c4_live.py::test_python_scan_containers_components_relations PASSED [ 10%]
+tests/test_c4_live.py::test_typescript_scan_workspaces_and_imports PASSED [ 20%]
+tests/test_c4_live.py::test_ts_specifiers_forms PASSED                   [ 30%]
+tests/test_c4_live.py::test_scan_is_deterministic PASSED                 [ 40%]
+tests/test_c4_live.py::test_render_mermaid PASSED                        [ 50%]
+tests/test_c4_live.py::test_render_dsl PASSED                            [ 60%]
+tests/test_c4_live.py::test_diff_between_refs PASSED                     [ 70%]
+tests/test_c4_live.py::test_diff_same_ref_and_worktree PASSED            [ 80%]
+tests/test_c4_live.py::test_cli_scan_and_diff_exit_codes PASSED          [ 90%]
+tests/test_c4_live.py::test_subdirectory_diff PASSED                     [100%]
+
+============================== 10 passed in 0.41s ==============================

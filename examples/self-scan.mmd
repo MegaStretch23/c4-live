@@ -1,0 +1,33 @@
+%% System context
+C4Context
+  title System context: c4-live
+  System(sys_c4_live, "c4-live", "1 containers, 7 components")
+
+%% Containers
+C4Container
+  title Containers: c4-live
+  System_Boundary(sys_c4_live_b, "c4-live") {
+    Container(c_c4_live, "c4_live", "Python package", "7 modules, path c4_live")
+  }
+
+%% Components of c4_live
+C4Component
+  title Components: c4_live
+  Container_Boundary(c_c4_live_b, "c4_live") {
+    Component(m_c4_live___init, "__init__", "Python module", "c4_live/__init__.py")
+    Component(m_c4_live___main, "__main__", "Python module", "c4_live/__main__.py")
+    Component(m_c4_live_cli, "cli", "Python module", "c4_live/cli.py")
+    Component(m_c4_live_diff, "diff", "Python module", "c4_live/diff.py")
+    Component(m_c4_live_model, "model", "Python module", "c4_live/model.py")
+    Component(m_c4_live_render, "render", "Python module", "c4_live/render.py")
+    Component(m_c4_live_scan, "scan", "Python module", "c4_live/scan.py")
+  }
+  Rel(m_c4_live___main, m_c4_live_cli, "imports")
+  Rel(m_c4_live_cli, m_c4_live___init, "imports")
+  Rel(m_c4_live_cli, m_c4_live_diff, "imports")
+  Rel(m_c4_live_cli, m_c4_live_render, "imports")
+  Rel(m_c4_live_cli, m_c4_live_scan, "imports")
+  Rel(m_c4_live_diff, m_c4_live_model, "imports")
+  Rel(m_c4_live_diff, m_c4_live_scan, "imports")
+  Rel(m_c4_live_render, m_c4_live_model, "imports")
+  Rel(m_c4_live_scan, m_c4_live_model, "imports")

@@ -1,0 +1,58 @@
+{
+  "system": "shop-demo",
+  "containers": {
+    "added": [],
+    "removed": [],
+    "changed": []
+  },
+  "components": {
+    "added": [
+      "shop/tax"
+    ],
+    "removed": [],
+    "changed": [
+      {
+        "id": "shop/cart",
+        "changes": [
+          "dropped external imports: requests"
+        ]
+      }
+    ]
+  },
+  "relations": {
+    "added": [
+      [
+        "shop/cart",
+        "shop/tax"
+      ],
+      [
+        "shop/tax",
+        "shop/prices"
+      ]
+    ],
+    "removed": [
+      [
+        "billing/invoice",
+        "shop/prices"
+      ],
+      [
+        "shop/cart",
+        "billing/invoice"
+      ]
+    ]
+  },
+  "container_relations": {
+    "added": [],
+    "removed": [
+      [
+        "billing",
+        "shop"
+      ],
+      [
+        "shop",
+        "billing"
+      ]
+    ]
+  },
+  "changed": true
+}

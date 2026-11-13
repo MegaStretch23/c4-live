@@ -1,0 +1,119 @@
+{
+  "system": "c4-live",
+  "containers": [
+    {
+      "id": "c4_live",
+      "name": "c4_live",
+      "technology": "Python package",
+      "path": "c4_live"
+    }
+  ],
+  "components": [
+    {
+      "id": "c4_live/__init__",
+      "name": "__init__",
+      "container": "c4_live",
+      "technology": "Python module",
+      "path": "c4_live/__init__.py",
+      "externals": []
+    },
+    {
+      "id": "c4_live/__main__",
+      "name": "__main__",
+      "container": "c4_live",
+      "technology": "Python module",
+      "path": "c4_live/__main__.py",
+      "externals": []
+    },
+    {
+      "id": "c4_live/cli",
+      "name": "cli",
+      "container": "c4_live",
+      "technology": "Python module",
+      "path": "c4_live/cli.py",
+      "externals": []
+    },
+    {
+      "id": "c4_live/diff",
+      "name": "diff",
+      "container": "c4_live",
+      "technology": "Python module",
+      "path": "c4_live/diff.py",
+      "externals": []
+    },
+    {
+      "id": "c4_live/model",
+      "name": "model",
+      "container": "c4_live",
+      "technology": "Python module",
+      "path": "c4_live/model.py",
+      "externals": []
+    },
+    {
+      "id": "c4_live/render",
+      "name": "render",
+      "container": "c4_live",
+      "technology": "Python module",
+      "path": "c4_live/render.py",
+      "externals": []
+    },
+    {
+      "id": "c4_live/scan",
+      "name": "scan",
+      "container": "c4_live",
+      "technology": "Python module",
+      "path": "c4_live/scan.py",
+      "externals": []
+    }
+  ],
+  "relations": [
+    {
+      "src": "c4_live/__main__",
+      "dst": "c4_live/cli",
+      "kind": "imports"
+    },
+    {
+      "src": "c4_live/cli",
+      "dst": "c4_live/__init__",
+      "kind": "imports"
+    },
+    {
+      "src": "c4_live/cli",
+      "dst": "c4_live/diff",
+      "kind": "imports"
+    },
+    {
+      "src": "c4_live/cli",
+      "dst": "c4_live/render",
+      "kind": "imports"
+    },
+    {
+      "src": "c4_live/cli",
+      "dst": "c4_live/scan",
+      "kind": "imports"
+    },
+    {
+      "src": "c4_live/diff",
+      "dst": "c4_live/model",
+      "kind": "imports"
+    },
+    {
+      "src": "c4_live/diff",
+      "dst": "c4_live/scan",
+      "kind": "imports"
+    },
+    {
+      "src": "c4_live/render",
+      "dst": "c4_live/model",
+      "kind": "imports"
+    },
+    {
+      "src": "c4_live/scan",
+      "dst": "c4_live/model",
+      "kind": "imports"
+    }
+  ],
+  "container_relations": [],
+  "externals": [],
+  "warnings": []
+}
