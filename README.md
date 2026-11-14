@@ -91,3 +91,7 @@ The `--level component` diff of the same two tags is in [`examples/requests-diff
 ## More from the same author
 
 Unrelated to diagrams, the author also publishes pay-per-event Apify actors that pull structured SEC filings: [SEC Form 4 insider clusters](https://apify.com/johnveds15/sec-form4-insider-clusters) and [SEC 8-K material events](https://apify.com/johnveds15/sec-8k-material-events).
+
+## Merged from c4-diff
+
+`c4-diff` (a second C4 diagram + git-ref diff CLI for the same idea) was never published as its own repo: its code, examples and 12 tests are kept in [`merged/c4-diff/`](merged/c4-diff/) (`c4diff` package: graph model, scanner, JSON graph export).

@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "c4diff"
+version = "0.1.0"
+description = "C4-style architecture diagram and diff from Python and TypeScript/JS imports. Standard library only."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+keywords = ["c4-model", "architecture", "mermaid", "python", "typescript"]
+
+[project.scripts]
+c4diff = "c4diff.cli:main"
+
+[tool.setuptools]
+packages = ["c4diff"]

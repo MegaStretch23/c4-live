@@ -1,0 +1,771 @@
+{
+  "version": 1,
+  "name": "ky",
+  "depth": 2,
+  "stats": {
+    "files": 31,
+    "python": 0,
+    "typescript": 31,
+    "file_edges": 93,
+    "skipped": []
+  },
+  "containers": [
+    {
+      "id": "(root)",
+      "files": 1,
+      "languages": [
+        "typescript"
+      ]
+    },
+    {
+      "id": "core",
+      "files": 3,
+      "languages": [
+        "typescript"
+      ]
+    },
+    {
+      "id": "errors",
+      "files": 8,
+      "languages": [
+        "typescript"
+      ]
+    },
+    {
+      "id": "types",
+      "files": 9,
+      "languages": [
+        "typescript"
+      ]
+    },
+    {
+      "id": "utils",
+      "files": 10,
+      "languages": [
+        "typescript"
+      ]
+    }
+  ],
+  "components": [
+    {
+      "id": "(root)/index",
+      "container": "(root)",
+      "files": 1,
+      "languages": [
+        "typescript"
+      ]
+    },
+    {
+      "id": "core/Ky",
+      "container": "core",
+      "files": 1,
+      "languages": [
+        "typescript"
+      ]
+    },
+    {
+      "id": "core/constants",
+      "container": "core",
+      "files": 1,
+      "languages": [
+        "typescript"
+      ]
+    },
+    {
+      "id": "core/retry-timing",
+      "container": "core",
+      "files": 1,
+      "languages": [
+        "typescript"
+      ]
+    },
+    {
+      "id": "errors/ForceRetryError",
+      "container": "errors",
+      "files": 1,
+      "languages": [
+        "typescript"
+      ]
+    },
+    {
+      "id": "errors/HTTPError",
+      "container": "errors",
+      "files": 1,
+      "languages": [
+        "typescript"
+      ]
+    },
+    {
+      "id": "errors/KyError",
+      "container": "errors",
+      "files": 1,
+      "languages": [
+        "typescript"
+      ]
+    },
+    {
+      "id": "errors/NetworkError",
+      "container": "errors",
+      "files": 1,
+      "languages": [
+        "typescript"
+      ]
+    },
+    {
+      "id": "errors/NonError",
+      "container": "errors",
+      "files": 1,
+      "languages": [
+        "typescript"
+      ]
+    },
+    {
+      "id": "errors/ResponseSizeError",
+      "container": "errors",
+      "files": 1,
+      "languages": [
+        "typescript"
+      ]
+    },
+    {
+      "id": "errors/SchemaValidationError",
+      "container": "errors",
+      "files": 1,
+      "languages": [
+        "typescript"
+      ]
+    },
+    {
+      "id": "errors/TimeoutError",
+      "container": "errors",
+      "files": 1,
+      "languages": [
+        "typescript"
+      ]
+    },
+    {
+      "id": "types/ResponsePromise",
+      "container": "types",
+      "files": 1,
+      "languages": [
+        "typescript"
+      ]
+    },
+    {
+      "id": "types/common",
+      "container": "types",
+      "files": 1,
+      "languages": [
+        "typescript"
+      ]
+    },
+    {
+      "id": "types/hooks",
+      "container": "types",
+      "files": 1,
+      "languages": [
+        "typescript"
+      ]
+    },
+    {
+      "id": "types/ky",
+      "container": "types",
+      "files": 1,
+      "languages": [
+        "typescript"
+      ]
+    },
+    {
+      "id": "types/options",
+      "container": "types",
+      "files": 1,
+      "languages": [
+        "typescript"
+      ]
+    },
+    {
+      "id": "types/request",
+      "container": "types",
+      "files": 1,
+      "languages": [
+        "typescript"
+      ]
+    },
+    {
+      "id": "types/response",
+      "container": "types",
+      "files": 1,
+      "languages": [
+        "typescript"
+      ]
+    },
+    {
+      "id": "types/retry",
+      "container": "types",
+      "files": 1,
+      "languages": [
+        "typescript"
+      ]
+    },
+    {
+      "id": "types/standard-schema",
+      "container": "types",
+      "files": 1,
+      "languages": [
+        "typescript"
+      ]
+    },
+    {
+      "id": "utils/body",
+      "container": "utils",
+      "files": 1,
+      "languages": [
+        "typescript"
+      ]
+    },
+    {
+      "id": "utils/delay",
+      "container": "utils",
+      "files": 1,
+      "languages": [
+        "typescript"
+      ]
+    },
+    {
+      "id": "utils/is",
+      "container": "utils",
+      "files": 1,
+      "languages": [
+        "typescript"
+      ]
+    },
+    {
+      "id": "utils/is-network-error",
+      "container": "utils",
+      "files": 1,
+      "languages": [
+        "typescript"
+      ]
+    },
+    {
+      "id": "utils/merge",
+      "container": "utils",
+      "files": 1,
+      "languages": [
+        "typescript"
+      ]
+    },
+    {
+      "id": "utils/normalize",
+      "container": "utils",
+      "files": 1,
+      "languages": [
+        "typescript"
+      ]
+    },
+    {
+      "id": "utils/options",
+      "container": "utils",
+      "files": 1,
+      "languages": [
+        "typescript"
+      ]
+    },
+    {
+      "id": "utils/timeout",
+      "container": "utils",
+      "files": 1,
+      "languages": [
+        "typescript"
+      ]
+    },
+    {
+      "id": "utils/type-guards",
+      "container": "utils",
+      "files": 1,
+      "languages": [
+        "typescript"
+      ]
+    },
+    {
+      "id": "utils/types",
+      "container": "utils",
+      "files": 1,
+      "languages": [
+        "typescript"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "from": "(root)/index",
+      "to": "core/Ky",
+      "weight": 1
+    },
+    {
+      "from": "(root)/index",
+      "to": "core/constants",
+      "weight": 1
+    },
+    {
+      "from": "(root)/index",
+      "to": "errors/ForceRetryError",
+      "weight": 1
+    },
+    {
+      "from": "(root)/index",
+      "to": "errors/HTTPError",
+      "weight": 1
+    },
+    {
+      "from": "(root)/index",
+      "to": "errors/KyError",
+      "weight": 1
+    },
+    {
+      "from": "(root)/index",
+      "to": "errors/NetworkError",
+      "weight": 1
+    },
+    {
+      "from": "(root)/index",
+      "to": "errors/ResponseSizeError",
+      "weight": 1
+    },
+    {
+      "from": "(root)/index",
+      "to": "errors/SchemaValidationError",
+      "weight": 1
+    },
+    {
+      "from": "(root)/index",
+      "to": "errors/TimeoutError",
+      "weight": 1
+    },
+    {
+      "from": "(root)/index",
+      "to": "types/ResponsePromise",
+      "weight": 1
+    },
+    {
+      "from": "(root)/index",
+      "to": "types/hooks",
+      "weight": 1
+    },
+    {
+      "from": "(root)/index",
+      "to": "types/ky",
+      "weight": 1
+    },
+    {
+      "from": "(root)/index",
+      "to": "types/options",
+      "weight": 1
+    },
+    {
+      "from": "(root)/index",
+      "to": "types/request",
+      "weight": 1
+    },
+    {
+      "from": "(root)/index",
+      "to": "types/response",
+      "weight": 1
+    },
+    {
+      "from": "(root)/index",
+      "to": "types/standard-schema",
+      "weight": 1
+    },
+    {
+      "from": "(root)/index",
+      "to": "utils/merge",
+      "weight": 1
+    },
+    {
+      "from": "(root)/index",
+      "to": "utils/type-guards",
+      "weight": 1
+    },
+    {
+      "from": "(root)/index",
+      "to": "utils/types",
+      "weight": 1
+    },
+    {
+      "from": "core/Ky",
+      "to": "core/constants",
+      "weight": 1
+    },
+    {
+      "from": "core/Ky",
+      "to": "core/retry-timing",
+      "weight": 1
+    },
+    {
+      "from": "core/Ky",
+      "to": "errors/ForceRetryError",
+      "weight": 1
+    },
+    {
+      "from": "core/Ky",
+      "to": "errors/HTTPError",
+      "weight": 1
+    },
+    {
+      "from": "core/Ky",
+      "to": "errors/NetworkError",
+      "weight": 1
+    },
+    {
+      "from": "core/Ky",
+      "to": "errors/NonError",
+      "weight": 1
+    },
+    {
+      "from": "core/Ky",
+      "to": "errors/SchemaValidationError",
+      "weight": 1
+    },
+    {
+      "from": "core/Ky",
+      "to": "errors/TimeoutError",
+      "weight": 1
+    },
+    {
+      "from": "core/Ky",
+      "to": "types/ResponsePromise",
+      "weight": 1
+    },
+    {
+      "from": "core/Ky",
+      "to": "types/options",
+      "weight": 1
+    },
+    {
+      "from": "core/Ky",
+      "to": "types/standard-schema",
+      "weight": 1
+    },
+    {
+      "from": "core/Ky",
+      "to": "utils/body",
+      "weight": 1
+    },
+    {
+      "from": "core/Ky",
+      "to": "utils/delay",
+      "weight": 1
+    },
+    {
+      "from": "core/Ky",
+      "to": "utils/is",
+      "weight": 1
+    },
+    {
+      "from": "core/Ky",
+      "to": "utils/is-network-error",
+      "weight": 1
+    },
+    {
+      "from": "core/Ky",
+      "to": "utils/merge",
+      "weight": 1
+    },
+    {
+      "from": "core/Ky",
+      "to": "utils/normalize",
+      "weight": 1
+    },
+    {
+      "from": "core/Ky",
+      "to": "utils/options",
+      "weight": 1
+    },
+    {
+      "from": "core/Ky",
+      "to": "utils/timeout",
+      "weight": 1
+    },
+    {
+      "from": "core/Ky",
+      "to": "utils/type-guards",
+      "weight": 1
+    },
+    {
+      "from": "core/constants",
+      "to": "types/options",
+      "weight": 1
+    },
+    {
+      "from": "errors/ForceRetryError",
+      "to": "core/constants",
+      "weight": 1
+    },
+    {
+      "from": "errors/ForceRetryError",
+      "to": "errors/KyError",
+      "weight": 1
+    },
+    {
+      "from": "errors/ForceRetryError",
+      "to": "errors/NonError",
+      "weight": 1
+    },
+    {
+      "from": "errors/ForceRetryError",
+      "to": "utils/is",
+      "weight": 1
+    },
+    {
+      "from": "errors/HTTPError",
+      "to": "errors/KyError",
+      "weight": 1
+    },
+    {
+      "from": "errors/HTTPError",
+      "to": "types/options",
+      "weight": 1
+    },
+    {
+      "from": "errors/HTTPError",
+      "to": "types/request",
+      "weight": 1
+    },
+    {
+      "from": "errors/HTTPError",
+      "to": "types/response",
+      "weight": 1
+    },
+    {
+      "from": "errors/NetworkError",
+      "to": "errors/KyError",
+      "weight": 1
+    },
+    {
+      "from": "errors/NetworkError",
+      "to": "types/request",
+      "weight": 1
+    },
+    {
+      "from": "errors/NonError",
+      "to": "utils/is",
+      "weight": 1
+    },
+    {
+      "from": "errors/ResponseSizeError",
+      "to": "errors/KyError",
+      "weight": 1
+    },
+    {
+      "from": "errors/ResponseSizeError",
+      "to": "types/request",
+      "weight": 1
+    },
+    {
+      "from": "errors/SchemaValidationError",
+      "to": "types/standard-schema",
+      "weight": 1
+    },
+    {
+      "from": "errors/TimeoutError",
+      "to": "errors/KyError",
+      "weight": 1
+    },
+    {
+      "from": "errors/TimeoutError",
+      "to": "types/request",
+      "weight": 1
+    },
+    {
+      "from": "types/ResponsePromise",
+      "to": "types/response",
+      "weight": 1
+    },
+    {
+      "from": "types/ResponsePromise",
+      "to": "types/standard-schema",
+      "weight": 1
+    },
+    {
+      "from": "types/hooks",
+      "to": "(root)/index",
+      "weight": 1
+    },
+    {
+      "from": "types/hooks",
+      "to": "core/constants",
+      "weight": 1
+    },
+    {
+      "from": "types/hooks",
+      "to": "types/options",
+      "weight": 1
+    },
+    {
+      "from": "types/ky",
+      "to": "core/constants",
+      "weight": 1
+    },
+    {
+      "from": "types/ky",
+      "to": "types/ResponsePromise",
+      "weight": 1
+    },
+    {
+      "from": "types/ky",
+      "to": "types/options",
+      "weight": 1
+    },
+    {
+      "from": "types/options",
+      "to": "types/common",
+      "weight": 1
+    },
+    {
+      "from": "types/options",
+      "to": "types/hooks",
+      "weight": 1
+    },
+    {
+      "from": "types/options",
+      "to": "types/retry",
+      "weight": 1
+    },
+    {
+      "from": "types/retry",
+      "to": "types/options",
+      "weight": 1
+    },
+    {
+      "from": "utils/body",
+      "to": "core/constants",
+      "weight": 1
+    },
+    {
+      "from": "utils/body",
+      "to": "errors/ResponseSizeError",
+      "weight": 1
+    },
+    {
+      "from": "utils/body",
+      "to": "types/options",
+      "weight": 1
+    },
+    {
+      "from": "utils/delay",
+      "to": "types/options",
+      "weight": 1
+    },
+    {
+      "from": "utils/is-network-error",
+      "to": "utils/is",
+      "weight": 1
+    },
+    {
+      "from": "utils/merge",
+      "to": "core/constants",
+      "weight": 1
+    },
+    {
+      "from": "utils/merge",
+      "to": "types/hooks",
+      "weight": 1
+    },
+    {
+      "from": "utils/merge",
+      "to": "types/options",
+      "weight": 1
+    },
+    {
+      "from": "utils/merge",
+      "to": "utils/is",
+      "weight": 1
+    },
+    {
+      "from": "utils/normalize",
+      "to": "core/constants",
+      "weight": 1
+    },
+    {
+      "from": "utils/normalize",
+      "to": "types/options",
+      "weight": 1
+    },
+    {
+      "from": "utils/normalize",
+      "to": "types/retry",
+      "weight": 1
+    },
+    {
+      "from": "utils/normalize",
+      "to": "utils/is",
+      "weight": 1
+    },
+    {
+      "from": "utils/options",
+      "to": "core/constants",
+      "weight": 1
+    },
+    {
+      "from": "utils/options",
+      "to": "types/options",
+      "weight": 1
+    },
+    {
+      "from": "utils/options",
+      "to": "utils/merge",
+      "weight": 1
+    },
+    {
+      "from": "utils/timeout",
+      "to": "errors/TimeoutError",
+      "weight": 1
+    },
+    {
+      "from": "utils/timeout",
+      "to": "types/options",
+      "weight": 1
+    },
+    {
+      "from": "utils/timeout",
+      "to": "utils/body",
+      "weight": 1
+    },
+    {
+      "from": "utils/type-guards",
+      "to": "errors/ForceRetryError",
+      "weight": 1
+    },
+    {
+      "from": "utils/type-guards",
+      "to": "errors/HTTPError",
+      "weight": 1
+    },
+    {
+      "from": "utils/type-guards",
+      "to": "errors/KyError",
+      "weight": 1
+    },
+    {
+      "from": "utils/type-guards",
+      "to": "errors/NetworkError",
+      "weight": 1
+    },
+    {
+      "from": "utils/type-guards",
+      "to": "errors/ResponseSizeError",
+      "weight": 1
+    },
+    {
+      "from": "utils/type-guards",
+      "to": "errors/TimeoutError",
+      "weight": 1
+    }
+  ],
+  "externals": {
+    "core": [
+      "@type-challenges/utils"
+    ]
+  }
+}

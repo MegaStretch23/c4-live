@@ -1,0 +1,19 @@
+C4Component
+  title v2.31.0 -> v2.32.0
+  Container_Boundary(b_requests, "requests") {
+    Component(n_requests_adapters, "adapters", "Python", "1 file")
+    Component(n_requests_compat, "compat", "Python", "1 file")
+    Component(n_requests_packages, "packages", "Python", "1 file")
+  }
+  Container_Boundary(b_tests, "tests") {
+    Component(n_tests_test_adapters, "test_adapters", "Python", "1 file")
+    Component(n_tests_test_requests, "test_requests", "Python", "1 file")
+    Component(n_tests_testserver, "testserver", "Python", "2 files")
+  }
+  Rel(n_requests_packages, n_requests_compat, "+ imports (1 file)")
+  Rel(n_tests_test_adapters, n_requests_adapters, "+ imports (1 file)")
+  Rel(n_tests_test_requests, n_tests_testserver, "+ imports (1 file)")
+  UpdateRelStyle(n_requests_packages, n_requests_compat, $textColor="#2e7d32", $lineColor="#2e7d32")
+  UpdateRelStyle(n_tests_test_adapters, n_requests_adapters, $textColor="#2e7d32", $lineColor="#2e7d32")
+  UpdateRelStyle(n_tests_test_requests, n_tests_testserver, $textColor="#2e7d32", $lineColor="#2e7d32")
+  UpdateElementStyle(n_tests_test_adapters, $bgColor="#2e7d32", $borderColor="#2e7d32")

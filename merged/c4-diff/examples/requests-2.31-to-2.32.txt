@@ -1,0 +1,10 @@
+c4diff: v2.31.0 -> v2.32.0
+nodes added (1)
+  tests/test_adapters
+nodes removed (0)
+edges added (3)
+  + requests/packages -> requests/compat  (1 file)
+  + tests/test_adapters -> requests/adapters  (1 file)
+  + tests/test_requests -> tests/testserver  (1 file)
+edges removed (0)
+edges changed (0)
